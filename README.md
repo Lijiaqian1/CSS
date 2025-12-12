@@ -1,6 +1,6 @@
 # Contrastive Subspace Steering (CSS)
 
-Contrastive Subspace Steering (CSS) is a lightweight activation-level safety steering method for large language models (LLMs).  
+**Contrastive Subspace Steering (CSS)** is a lightweight activation-level safety steering method for large language models (LLMs).  
 Instead of modifying model weights or relying on brittle rule-based guardrails, CSS learns a safety-relevant subspace through contrastive representation learning and intervenes only along unsafe latent directions.  
 This enables effective harmfulness reduction with minimal degradation in helpfulness. CSS is highly efficient, which requires no model finetuning, and demonstrates promising robustness under out-of-distribution evaluations.
 
@@ -9,9 +9,9 @@ This enables effective harmfulness reduction with minimal degradation in helpful
 ## Overview
 
 
-```markdown
+
 ![CSS Overview](./css/css_overview.png)
-```
+
 
 ---
 
