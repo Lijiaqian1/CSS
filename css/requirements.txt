@@ -1,0 +1,25 @@
+accelerate @ git+https://github.com/huggingface/accelerate.git@61bcdaa45d35a77478decc78ce204b54dc108812
+datasets==3.5.1
+einops==0.8.1
+fancy-einsum==0.0.3
+
+huggingface-hub==0.36.0
+numpy==1.26.4
+pandas==2.3.3
+matplotlib==3.9.0
+
+regex==2025.11.3
+requests==2.32.3
+safetensors==0.6.2
+scikit-learn==1.7.2
+scipy==1.15.3
+sentencepiece==0.2.1
+
+tensorboard==2.17.0
+torch==2.9.1
+tqdm==4.67.1
+transformers==4.57.3
+
+wandb==0.19.11
+python-dotenv==1.2.1
+openai
