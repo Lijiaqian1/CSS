@@ -1,0 +1,21 @@
+seed: 42
+model:
+  path: /root/autodl-tmp/css/model_weights/llama2_7b/models--meta-llama--Llama-2-7B-hf/snapshots/01c7f73d771dfac7d292323805ebc428287df4f9
+  layer: 22
+  token_type: exact
+data:
+  dataset_name: PKU-SafeRLHF
+  split_train: train
+  split_val: test
+  max_samples_train: 20000
+  max_samples_val: 2000
+contrastive:
+  proj_dim: 256
+  batch_size: 256
+  lr: 1e-3
+  temperature: 0.07
+  lambda_rank: 0.2
+  ortho_reg: 1e-3
+subspace:
+  k: 4
+output_dir: ./outputs_llama2/pku_run_layer22
